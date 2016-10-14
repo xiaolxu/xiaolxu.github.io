@@ -1,0 +1,42 @@
+p {
+  color:green;
+  font-size: 20px;
+  text-align: center;
+}
+
+#special {
+  color:#66ccff;
+  font-family:Arial;
+  text-align: center;
+  font-size: 40px;
+}
+
+#sakura {
+  color: #ffc0cb;
+  font-family:Arial;
+  text-align:center;
+  font-size: 26px
+
+}
+
+#lake {
+  color: #66cccc;
+  font-family:Arial;
+  text-align: center;
+  font-size: 30px;
+}
+
+#staygold {
+  color: #f4b342;
+  font-family:cursive; Arial;
+  font-size: 18px;
+  text-align: center;
+}
+
+#overall {
+  color: #c6b3ff;
+  font-family:cursive; Arial;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: underline;
+}
