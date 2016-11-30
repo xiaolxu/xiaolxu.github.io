@@ -5,7 +5,7 @@ p {
 }
 
 #special {
-  color:#66ccff;
+  color:#66aaff;
   font-family:Arial;
   text-align: center;
   font-size: 40px;
@@ -14,7 +14,7 @@ p {
 #sakura {
   color: #ffc0cb;
   font-family:Arial;
-  text-align:center;
+  text-align:left;
   font-size: 26px
 
 }
@@ -22,7 +22,7 @@ p {
 #lake {
   color: #66cccc;
   font-family:Arial;
-  text-align: center;
+  align-items: center;
   font-size: 30px;
 }
 
@@ -39,4 +39,23 @@ p {
   font-size: 36px;
   text-align: center;
   text-decoration: underline;
+}
+
+#salmon {
+  color: #ff8742;
+  font-family: fantasy;
+  font-size: 36px;
+  text-align: center;
+  text-decoration-style: dotted;
+}
+div.well {
+  background-color:#ffc5c5;
+}
+
+button{
+  background-color: #66ccff;
+  color: #ffffff;
+  font-size: 36px;
+  font-family: serif;
+  align-items: center;
 }
