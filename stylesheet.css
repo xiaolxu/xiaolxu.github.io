@@ -4,52 +4,34 @@ p {
   text-align: center;
 }
 
-#special {
-  color:#66aaff;
-  font-family:Arial;
-  text-align: center;
-  font-size: 40px;
-}
 
 #sakura {
   color: #ffc0cb;
   font-family:Arial;
-  text-align:left;
+  text-align:center;
   font-size: 26px
 
 }
 
 #lake {
-  color: #66cccc;
+  color: #a96d6d;
   font-family:Arial;
-  align-items: center;
-  font-size: 30px;
-}
-
-#staygold {
-  color: #f4b342;
-  font-family:cursive; Arial;
+  align-items: left;
   font-size: 18px;
-  text-align: center;
 }
 
-#overall {
-  color: #c6b3ff;
-  font-family:cursive; Arial;
-  font-size: 36px;
-  text-align: center;
-  text-decoration: underline;
-}
 
-#salmon {
-  color: #ff8742;
-  font-family: fantasy;
-  font-size: 36px;
+#flower {
+  color: #ff9999;
+  font: Century Gothic;
+  font-size: 50px;
   text-align: center;
   text-decoration-style: dotted;
 }
-div.well {
-  background-color:#ffc5c5;
+div.top {
+  background: rgba(255, 255, 255, 0.6);
+  width: auto;
+  height: auto;
 }
 
 button{
@@ -58,4 +40,105 @@ button{
   font-size: 36px;
   font-family: serif;
   align-items: center;
+}
+
+div.icon{
+width:200px;
+height: 200px;
+display:block;
+position: relative;
+float:left;
+padding: 0px;
+margin: 10px;
+background: #fad7de;
+}
+
+div.icon_head{
+width:150px;
+height: 150px;
+display:block;
+position: relative;
+float:left;
+padding: 0px;
+margin: 25px;
+background: #bde9df;
+border-radius:75px;
+-webkit-border-radius:75px;
+-moz-border-radius:75px;
+-o-border-radius:75px;
+-webkit-background-clip: padding;
+overflow:hidden;
+}
+
+a.trans_name{
+width:150px;
+height: 150px;
+display:block;
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 0px;
+z-index:1;
+filter: Alpha(Opacity=0);
+opacity:0;
+}
+
+span.icon_translucent{
+width:150px;
+height: 60px;
+display:block;
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 0px;
+background: #000000;
+z-index:2;
+filter: Alpha(Opacity=50);
+opacity:0.5;
+}
+
+span.icon_name{
+width:150px;
+height: 60px;
+display:block;
+position: absolute;
+left: 0px;
+bottom: 0px;
+padding: 0px;
+margin: 0px;
+color: #ffffff;
+font-size: 16px;
+text-align: center;
+line-height: 40px;
+z-index:3;
+}
+
+a.trans_name:hover{
+filter: Alpha(Opacity=100);
+opacity:1;
+}
+
+p.text{
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-family: serif;
+  color: #763838;
+}
+
+a.link{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: monospace;
+  text-decoration: underline;
+}
+
+a.back{
+  color: ##996677;
+  font-size: 26px;
+  font-weight:bolder;
+  text-shadow: 4px, 4px, #cc9999;
 }
