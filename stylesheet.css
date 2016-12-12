@@ -6,10 +6,10 @@ p {
 
 
 #sakura {
-  color: #ffc0cb;
+  color: #994455;
   font-family:Arial;
   text-align:center;
-  font-size: 26px
+  font-size: 24px
 
 }
 
@@ -137,8 +137,23 @@ a.link{
 }
 
 a.back{
-  color: ##996677;
+  color: #996677;
   font-size: 26px;
   font-weight:bolder;
   text-shadow: 4px, 4px, #cc9999;
+}
+
+a.info{
+  color: #d46868;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: underline;
+}
+a.ins{
+  color:	#ec7272;
+  font-size: 26px;
+  font-weight: bold;
+  text-shadow: 4px, 4px, #ffffff;
+  text-align: center;
 }
