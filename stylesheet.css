@@ -4,6 +4,11 @@ p {
   text-align: center;
 }
 
+#tip {
+  color: #97afb4;
+  font-fmaily:Arial;
+  text-align: left;
+  font-size: 22px;
 
 #sakura {
   color: #994455;
