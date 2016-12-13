@@ -4,11 +4,7 @@ p {
   text-align: center;
 }
 
-p.tip {
-  color: #97afb4;
-  font-fmaily:Arial;
-  text-align: left;
-  font-size: 22px;
+
 
 #sakura {
   color: #994455;
@@ -22,7 +18,7 @@ p.tip {
   color: #a96d6d;
   font-family:Arial;
   align-items: left;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
